@@ -58,7 +58,12 @@ This script is very basic and takes a single argument that *must* be a path to t
 
 ![](http://pix.toile-libre.org/upload/img/1511740192.png)
 
+##### Thoughts
 
+It is assumed as part of *why this repo?* that you are interested in the C/C++ sources rather than plugin sources or precompiled binaries of your patch. Likely, you might want to compile the code again for specific targets afterwards. I made this script for testing patches easily on Linux on my way to running patches on Arduino boards!
+
+You will need **libpulse-dev**, **gcc**, **g++** and **wget**:  
+`sudo apt install build-essential libpulse-dev wget`
 
 -----------
 
